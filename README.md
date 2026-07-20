@@ -179,22 +179,22 @@ Snake/
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yourusername/snake-android.git
+git clone https://github.com/ZoomWyze/snake-android.git
 cd snake-android
 
 # 2. 用 Android Studio 打开项目
-#    File → Open → 选择项目根目录
+   File → Open → 选择项目根目录
 
 # 3. 同步 Gradle
-#    点击 "Sync Project with Gradle Files" 按钮
+   点击 "Sync Project with Gradle Files" 按钮
 
 # 4. 准备音频资源（重要！）
-#    将以下音频文件放入 app/src/main/res/raw/ 目录：
-#    - bgm_game.mp3   (背景音乐，建议 1~2 分钟循环)
-#    - sfx_eat.mp3    (吃食物短音效，建议 < 1 秒)
+    将以下音频文件放入 app/src/main/res/raw/ 目录：
+   - bgm_game.mp3   (背景音乐，建议 1~2 分钟循环)
+    - sfx_eat.mp3    (吃食物短音效，建议 < 1 秒)
 
 # 5. 构建并运行
-#    连接设备或启动模拟器 → 点击 Run ▶
+   连接设备或启动模拟器 → 点击 Run ▶
 ```
 
 ### 首次运行
