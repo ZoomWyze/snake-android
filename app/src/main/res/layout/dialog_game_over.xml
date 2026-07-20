@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="28dp"
+    android:background="@drawable/bg_game_over_card">
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游戏结束"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary" />
+
+    <!-- "本次得分" 标签 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="本次得分"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary" />
+
+    <!-- 得分：霓虹绿大字号 + 发光阴影 -->
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="0"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="@color/neon_green"
+        android:shadowColor="@color/neon_green"
+        android:shadowRadius="24"
+        android:shadowDx="0"
+        android:shadowDy="0" />
+
+    <!-- 新纪录标识：霓虹粉 + 闪烁动画（代码控制可见性） -->
+    <TextView
+        android:id="@+id/tv_new_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="✨ 新纪录！ ✨"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/neon_pink"
+        android:shadowColor="@color/neon_pink"
+        android:shadowRadius="18"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:visibility="gone" />
+
+    <!-- 按钮区域 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:text="返回主页"
+            android:textColor="@color/neon_green"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_neon_outline" />
+
+        <Button
+            android:id="@+id/btn_restart"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="重新开始"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_neon_filled" />
+
+    </LinearLayout>
+
+</LinearLayout>

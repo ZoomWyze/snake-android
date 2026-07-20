@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ====== 通用间距 ====== -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_base">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+
+    <!-- ====== 字号 ====== -->
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_body_sm">14sp</dimen>
+    <dimen name="text_body">16sp</dimen>
+    <dimen name="text_title_sm">18sp</dimen>
+    <dimen name="text_title">22sp</dimen>
+    <dimen name="text_title_lg">28sp</dimen>
+    <dimen name="text_headline">36sp</dimen>
+
+    <!-- ====== 控件尺寸 ====== -->
+    <dimen name="btn_height">48dp</dimen>
+    <dimen name="btn_height_large">56dp</dimen>
+    <dimen name="btn_corner">12dp</dimen>
+    <dimen name="card_corner">16dp</dimen>
+    <dimen name="input_height">52dp</dimen>
+    <dimen name="icon_size_sm">20dp</dimen>
+    <dimen name="icon_size_md">28dp</dimen>
+
+    <!-- ====== 游戏相关 ====== -->
+    <dimen name="game_horizontal_margin">16dp</dimen>
+    <dimen name="game_top_bar_height">48dp</dimen>
+    <dimen name="game_bottom_margin">16dp</dimen>
+    <dimen name="snake_node_diameter">20dp</dimen>
+    <dimen name="food_radius">9dp</dimen>
+    <dimen name="swipe_threshold">30dp</dimen>
+    <dimen name="neon_glow_radius">6dp</dimen>
+
+    <!-- 顶部信息栏高度（48dp） -->
+    <dimen name="top_info_bar_height">48dp</dimen>
+    <!-- 游戏区域左右边距（16dp） -->
+    <dimen name="game_area_horizontal_padding">16dp</dimen>
+    <!-- 游戏区域底部边距（16dp） -->
+    <dimen name="game_area_bottom_padding">16dp</dimen>
+    <!-- 蛇身节点直径（20dp） -->
+    <dimen name="node_diameter">20dp</dimen>
+    <!-- 滑动手势灵敏度（30dp） -->
+    <dimen name="swipe_sensitivity">30dp</dimen>
+
+</resources>

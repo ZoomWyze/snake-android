@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 霓虹按钮样式 -->
+    <style name="NeonButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_neon_button</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+</resources>

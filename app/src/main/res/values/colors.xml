@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ====== 全局 UI 主题色====== -->
+    <color name="colorPrimary">#005AC1</color>
+    <color name="colorPrimaryVariant">#003D82</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#565E71</color>
+    <color name="colorSecondaryVariant">#283041</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="surface">#FDFBFF</color>
+    <color name="background">#FDFBFF</color>
+
+    <!--Material3 需要的变体色，用于副标题、提示文字等 -->
+    <color name="colorOnSurfaceVariant">#44474E</color>
+    <color name="colorOnSurface">#1A1C1E</color>
+    <color name="colorOutline">#74777F</color>
+
+    <!-- ====== 霓虹色系（保留给游戏画面使用）====== -->
+    <color name="neon_green">#39FF14</color>
+    <color name="neon_pink">#FF6EC7</color>
+    <color name="neon_blue">#00F0FF</color>
+
+    <!-- 霓虹高光变体（用于发光阴影、渐变）-->
+    <color name="neon_green_soft">#6639FF14</color>
+    <color name="neon_pink_soft">#66FF6EC7</color>
+    <color name="neon_blue_soft">#6600F0FF</color>
+
+    <!-- ====== 文本====== -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="text_hint">#9E9E9E</color>
+
+    <!-- ====== 基础色 ====== -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay_dim">#99000000</color>
+
+</resources>
